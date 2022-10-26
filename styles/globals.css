@@ -6,9 +6,10 @@
   body {
     @apply tracking-wide;
   }
-  header {
+  header, .about {
     background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
   }
+  
   li {
     @apply cursor-pointer;
   }
