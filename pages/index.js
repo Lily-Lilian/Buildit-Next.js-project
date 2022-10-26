@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "./../components/Navbar";
+import Footer from "../components/Footer";
+import Contact from './../components/Contact';
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
+
       <header className=" flex flex-col top-0 relative space-y-4 text-[#486A6F] text-clip  pt-14 px-20">
         <img
           src="./assets/Figure.svg"
@@ -23,7 +26,7 @@ export default function Home() {
             <h1 className="text-6xl font-bold  max-w-xl text-[#486A6F] ">
               Development company
             </h1>
-            <p className="text-xl py-4">
+            <p className="text-lg py-4">
               Forward-thinking real estate developer, owner <br /> and investor
               with a reputation
             </p>
@@ -133,6 +136,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

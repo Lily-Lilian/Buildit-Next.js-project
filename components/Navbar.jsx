@@ -9,15 +9,27 @@ const Navbar = () => {
         <div className="h-10 w-10 rounded-full bg-[#486A6F]"></div>
         <h1>Buildit</h1>
       </div>
-      <nav className="flex space-x-8 justify-center list-none">
+      <nav className="flex space-x-8 justify-center list-none text-[#486A6F]">
         <li>
           <Link href="/about">
             <a>About</a>
           </Link>
         </li>
-        <li>Service</li>
-        <li>Project</li>
-        <li>Contact</li>
+        <li>
+          <Link href="/service">
+            <a>Service</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/service">
+            <a>Project</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/service">
+            <a>Contact</a>
+          </Link>
+        </li>
       </nav>
       <div className="bg-[#486A6F] text-white px-2 py-2 text-sm rounded-md ">
         <button>Need a project ?</button>
